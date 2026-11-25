@@ -12,7 +12,8 @@ de cada aresta é **exata, sem otimização iterativa**, e muito mais rápida qu
 
 ```math
 \kappa_G(i,j) \;=\; 1-\frac{W_2\big(\mathcal{N}(\bar{\mathbf{x}}_i,\boldsymbol{\Sigma}_i),\,\mathcal{N}(\bar{\mathbf{x}}_j,\boldsymbol{\Sigma}_j)\big)}{\lVert\mathbf{x}_i-\mathbf{x}_j\rVert},
-\qquad
+```
+```math
 W_2^2=\lVert\bar{\mathbf{x}}_i-\bar{\mathbf{x}}_j\rVert^2+\operatorname{tr}\boldsymbol{\Sigma}_i+\operatorname{tr}\boldsymbol{\Sigma}_j-2\operatorname{tr}\big(\boldsymbol{\Sigma}_i^{1/2}\boldsymbol{\Sigma}_j\boldsymbol{\Sigma}_i^{1/2}\big)^{1/2}
 ```
 
