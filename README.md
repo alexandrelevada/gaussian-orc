@@ -11,7 +11,9 @@ extremidades de uma aresta tem forma fechada (distância de Bures–Wasserstein)
 de cada aresta é **exata, sem otimização iterativa**, e muito mais rápida que a ORC clássica.
 
 ```math
-\kappa_G(i,j) = 1 - \frac{W_2\big(\mathcal{N}(\bar{x}_i,\Sigma_i),\ \mathcal{N}(\bar{x}_j,\Sigma_j)\big)}{\lVert x_i - x_j \rVert}
+\kappa_G(i,j) \;=\; 1-\frac{W_2\big(\mathcal{N}(\bar{\mathbf{x}}_i,\boldsymbol{\Sigma}_i),\,\mathcal{N}(\bar{\mathbf{x}}_j,\boldsymbol{\Sigma}_j)\big)}{\lVert\mathbf{x}_i-\mathbf{x}_j\rVert},
+\qquad
+W_2^2=\lVert\bar{\mathbf{x}}_i-\bar{\mathbf{x}}_j\rVert^2+\operatorname{tr}\boldsymbol{\Sigma}_i+\operatorname{tr}\boldsymbol{\Sigma}_j-2\operatorname{tr}\big(\boldsymbol{\Sigma}_i^{1/2}\boldsymbol{\Sigma}_j\boldsymbol{\Sigma}_i^{1/2}\big)^{1/2}
 ```
 
 - **κ_G muito negativo** → as vizinhanças das extremidades estão mais distantes (em transporte) do que
