@@ -15,7 +15,7 @@ de cada aresta é **exata, sem otimização iterativa**, e muito mais rápida qu
 ```
 
 ```math
-W_2^2=\lVert\bar{\mathbf{x}}_i-\bar{\mathbf{x}}_j\rVert^2 +tr\boldsymbol{\Sigma}_i
+W_2^2=\lVert\bar{\mathbf{x}}_i-\bar{\mathbf{x}}_j\rVert^2 +tr\boldsymbol{\Sigma}_i + tr\boldsymbol{\Sigma}_j-2 tr\big(\boldsymbol{\Sigma}_i^{1/2}\boldsymbol{\Sigma}_j\boldsymbol{\Sigma}_i^{1/2}\big)^{1/2}
 ```
 
 - **κ_G muito negativo** → as vizinhanças das extremidades estão mais distantes (em transporte) do que
