@@ -1,0 +1,22 @@
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+ & & \multicolumn{3}{c}{Edge-curvature time (s)} & \multicolumn{2}{c}{Speed-up} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}
+Dataset & $|E|$ & ORC & G-ORC (loop) & G-ORC (batched) & Loop & Batched \\
+\midrule
+Iris & 972 & 0.22 & 0.02 & 0.01 & 9.1$\times$ & 16.6$\times$ \\
+Wine & 1231 & 0.29 & 0.04 & 0.03 & 7.7$\times$ & 10.7$\times$ \\
+Breast cancer & 4277 & 1.01 & 0.14 & 0.08 & 7.1$\times$ & 12.6$\times$ \\
+Digits & 12340 & 3.30 & 0.48 & 0.22 & 6.9$\times$ & 14.9$\times$ \\
+Segmentation & 13710 & 3.57 & 0.43 & 0.22 & 8.3$\times$ & 16.1$\times$ \\
+Satimage & 47467 & 12.32 & 1.70 & 0.84 & 7.2$\times$ & 14.7$\times$ \\
+Texture & 36445 & 10.25 & 1.22 & 0.59 & 8.4$\times$ & 17.4$\times$ \\
+Optdigits & 39826 & 10.67 & 1.43 & 0.74 & 7.5$\times$ & 14.4$\times$ \\
+Pendigits & 68335 & 17.35 & 1.96 & 0.90 & 8.8$\times$ & 19.2$\times$ \\
+Letter & 66047 & 17.15 & 2.02 & 0.91 & 8.5$\times$ & 18.8$\times$ \\
+MNIST & 73305 & 26.52 & 8.47 & 7.15 & 3.1$\times$ & 3.7$\times$ \\
+Fashion-MNIST & 79296 & 37.45 & 11.78 & 10.72 & 3.2$\times$ & 3.5$\times$ \\
+MNIST (PCA-50) & 71100 & 19.27 & 2.65 & 1.17 & 7.3$\times$ & 16.5$\times$ \\
+Fashion-MNIST (PCA-50) & 73014 & 20.23 & 2.59 & 1.18 & 7.8$\times$ & 17.1$\times$ \\
+\bottomrule
+\end{tabular}

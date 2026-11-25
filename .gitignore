@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# dados baixados e resultados intermediários (grandes, regeneráveis)
+data/
+results/raw/
+results/openml/
+*.npz
+*_endpoints*.png
+*_endpoints.csv

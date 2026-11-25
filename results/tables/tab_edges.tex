@@ -1,0 +1,23 @@
+\begin{tabular}{@{}lcccccccccc c@{}}
+\toprule
+ & \multicolumn{5}{c}{AUROC} & \multicolumn{5}{c}{Precision of top 5\%} & \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+Dataset & G-ORC & ORC & Len. & Jacc. & G+L & G-ORC & ORC & Len. & Jacc. & G+L & Base \\
+\midrule
+Iris & 0.73 & 0.76 & 0.68 & \textbf{0.85} & 0.81 & 0.24 & 0.27 & 0.08 & \textbf{0.57} & 0.41 & 0.10 \\
+Wine & 0.81 & 0.82 & 0.81 & 0.88 & \textbf{0.90} & 0.65 & \textbf{0.68} & 0.44 & 0.65 & 0.66 & 0.09 \\
+Breast cancer & 0.65 & 0.66 & 0.56 & \textbf{0.69} & 0.66 & \textbf{0.22} & 0.21 & 0.11 & 0.19 & 0.21 & 0.07 \\
+Digits & 0.83 & 0.83 & 0.88 & 0.86 & \textbf{0.92} & 0.34 & 0.33 & 0.29 & 0.34 & \textbf{0.45} & 0.04 \\
+Segmentation & 0.61 & 0.61 & \textbf{0.75} & 0.70 & 0.74 & 0.18 & 0.18 & 0.35 & 0.35 & \textbf{0.39} & 0.11 \\
+Satimage & 0.57 & 0.57 & \textbf{0.65} & 0.60 & \textbf{0.65} & 0.22 & 0.21 & \textbf{0.30} & 0.23 & 0.29 & 0.14 \\
+Texture & 0.67 & 0.67 & 0.82 & 0.74 & \textbf{0.83} & 0.17 & 0.18 & 0.24 & \textbf{0.26} & 0.25 & 0.05 \\
+Optdigits & 0.76 & 0.74 & \textbf{0.88} & 0.78 & \textbf{0.88} & 0.22 & 0.20 & 0.23 & 0.20 & \textbf{0.31} & 0.03 \\
+Pendigits & 0.66 & 0.63 & \textbf{0.83} & 0.78 & 0.82 & 0.10 & 0.09 & \textbf{0.15} & 0.12 & \textbf{0.15} & 0.02 \\
+Letter & 0.69 & 0.73 & 0.76 & \textbf{0.81} & 0.79 & 0.37 & 0.47 & 0.49 & \textbf{0.72} & 0.59 & 0.22 \\
+MNIST & 0.68 & 0.70 & 0.71 & \textbf{0.78} & 0.74 & 0.41 & 0.44 & 0.35 & \textbf{0.52} & 0.49 & 0.12 \\
+Fashion-MNIST & 0.52 & 0.55 & 0.62 & \textbf{0.63} & 0.60 & 0.32 & 0.34 & 0.40 & \textbf{0.51} & 0.37 & 0.27 \\
+\midrule
+Mean & 0.68 & 0.69 & 0.75 & 0.76 & 0.78 & 0.29 & 0.30 & 0.29 & 0.39 & 0.38 & 0.11 \\
+Mean rank & 4.5 & 4.0 & 2.6 & 2.1 & 1.8 & 3.8 & 3.7 & 3.3 & 2.3 & 1.8 &  \\
+\bottomrule
+\end{tabular}
